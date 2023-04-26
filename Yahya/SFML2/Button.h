@@ -12,7 +12,7 @@
 #include <SFML/Audio.hpp>
 #include <SFML/Network.hpp>
 
-//using namespace sf;
+using namespace sf;
 using namespace std;
 
 enum button_states{BTN_IDLE = 0,BTN_HOVER, BTN_ACTIVE};

@@ -63,16 +63,18 @@ void MainMenuState::initKeybinds()
 
 void MainMenuState::initButtons()
 {
-	this->buttons["GAME_STATE"] = new Button(300, 480, 250, 80, &this->font, "New Game",
-		sf::Color(0, 255, 0, 200), sf::Color(255,0,0, 255), sf::Color(20, 20, 20, 200));
-
-	this->buttons["SETTINGS"] = new Button(300, 680, 250, 80, &this->font, "Settings",
+	this->buttons["GAME_STATE"] = new Button(200, 480, 250, 80, &this->font, "Play",
 		sf::Color(0, 255, 0, 200), sf::Color(255, 0, 0, 255), sf::Color(20, 20, 20, 200));
-
-	this->buttons["EXIT_STATE"] = new Button(300, 880, 250, 80, &this->font, "Quit",
+	this->buttons["EXIT_STATE"] = new Button(200, 680, 250, 80, &this->font, "Exit",
+		sf::Color(0, 255, 0, 200), sf::Color(255, 0, 0, 255), sf::Color(20, 20, 20, 200));
+	this->buttons["ABOUT"] = new Button(460, 480, 250, 80, &this->font, "About",
+		sf::Color(0, 255, 0, 200), sf::Color(255, 0, 0, 255), sf::Color(20, 20, 20, 200));
+	this->buttons["Credits"] = new Button(460, 680, 250, 80, &this->font, "Credits",
 		sf::Color(0, 255, 0, 200), sf::Color(255, 0, 0, 255), sf::Color(20, 20, 20, 200));
 
 }
+
+
 
 void MainMenuState::initMusic()
 {
