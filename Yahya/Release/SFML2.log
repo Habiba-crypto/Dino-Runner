@@ -1,0 +1,9 @@
+﻿  MainMenuState.cpp
+E:\cpp project\SFML2\MainMenuState.cpp(19,44): warning C4129: 'I': unrecognized character escape sequence
+E:\cpp project\SFML2\MainMenuState.cpp(19,44): warning C4129: 'B': unrecognized character escape sequence
+  Generating code
+  0 of 598 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  SFML2.vcxproj -> E:\cpp project\SFML2\Release\SFML2.exe

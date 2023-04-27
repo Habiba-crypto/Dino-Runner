@@ -1,2 +1,0 @@
-E:\cpp project\SFML2\Debug\SFML2.exe
-C:\Users\lenovo\Desktop\year4s\C++\Cpp project\Dino-Runner\Yahya\SFML2\Debug\SFML2.exe
