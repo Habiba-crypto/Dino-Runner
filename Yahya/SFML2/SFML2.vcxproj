@@ -138,9 +138,11 @@
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="GameStates.cpp" />
     <ClCompile Include="Icon.cpp" />
+    <ClCompile Include="LandScrnState.cpp" />
     <ClCompile Include="MainMenuState.cpp" />
     <ClCompile Include="Musics.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="SelectionMenu.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="State.cpp" />
   </ItemGroup>
@@ -150,9 +152,11 @@
     <ClInclude Include="Game.h" />
     <ClInclude Include="GameStates.h" />
     <ClInclude Include="Icon.h" />
+    <ClInclude Include="LandScrnState.h" />
     <ClInclude Include="MainMenuState.h" />
     <ClInclude Include="Musics.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="SelectionMenu.h" />
     <ClInclude Include="State.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

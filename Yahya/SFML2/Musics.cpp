@@ -4,7 +4,7 @@ bool Musics::musicState = true;
 void Musics::initVariables()
 {
 	getfilepath();
-	vol = 0;
+	vol = 20;
 	
 	if (!this->muscBuffer.loadFromFile("Resources/Music/Dino-effect.ogg"))
 	{
@@ -21,7 +21,7 @@ void Musics::initVariables()
 	this->musc.play();
 
 	// stop the sound after 6 seconds
-	sf::sleep(sf::seconds(8));
+	//sf::sleep(sf::seconds(8));
 	this->musc.stop();
 
 
