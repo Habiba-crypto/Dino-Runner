@@ -1,0 +1,20 @@
+﻿  AnimationComponent.cpp
+  Button.cpp
+  CharacterSelecMenuState.cpp
+  DifficultyMenu.cpp
+  Entity.cpp
+  Game.cpp
+  GameStates.cpp
+  HitboxComponent.cpp
+  Icon.cpp
+  LandScrnState.cpp
+  MainMenuState.cpp
+  MovementComponent.cpp
+  Musics.cpp
+  Player.cpp
+  SceneryMenu.cpp
+  SelectionMenu.cpp
+  Source.cpp
+  State.cpp
+  Generating Code...
+  SFML2.vcxproj -> C:\Users\lenovo\Desktop\year4s\C++\Cpp project\Dino-Runner\DinoDino\Debug\SFML2.exe
